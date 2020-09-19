@@ -74,8 +74,8 @@ export default {
       "bin",
       "scripts",
       "dependencies",
-      "devDependencies",
       "peerDependencies",
+      "devDependencies",
       "config",
       "workspaces",
       "publishConfig"
