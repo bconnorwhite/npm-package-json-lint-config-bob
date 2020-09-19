@@ -1,0 +1,37 @@
+{
+  "name": "npm-package-json-lint-config-bob",
+  "version": "1.0.0",
+  "description": "npm-package-json-lint for packages built with @bconnorwhite/bob",
+  "license": "MIT",
+  "author": {
+    "name": "Connor White",
+    "email": "connor.bcw@gmail.com",
+    "url": "https://connorwhite.org"
+  },
+  "homepage": "https://connorwhite.org/github/npm-package-json-lint-config-bob",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bconnorwhite/npm-package-json-lint-config-bob.git"
+  },
+  "keywords": [
+    "npm",
+    "package",
+    "json",
+    "lint",
+    "config",
+    "bconnorwhite",
+    "bob"
+  ],
+  "files": [
+    "build"
+  ],
+  "main": "./build/index.js",
+  "scripts": {
+    "build": "bob build",
+    "postversion": "git push",
+    "prepublishOnly": "yarn run build"
+  },
+  "devDependencies": {
+    "@bconnorwhite/bob": "^2.2.1"
+  }
+}
