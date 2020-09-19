@@ -31,6 +31,9 @@
     "postversion": "git push",
     "prepublishOnly": "yarn run build"
   },
+  "peerDependencies": {
+    "npm-package-json-lint": "^5.1.0"
+  },
   "devDependencies": {
     "@bconnorwhite/bob": "^2.2.1"
   }
