@@ -20,7 +20,10 @@
     "lint",
     "config",
     "bconnorwhite",
-    "bob"
+    "bob",
+    "npm-package-json-lint",
+    "npm-package-json-lintconfig",
+    "npm-package-json-lint-config"
   ],
   "files": [
     "build"
