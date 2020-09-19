@@ -36,12 +36,12 @@
     "prepublishOnly": "yarn lint && yarn build && yarn test",
     "test": "jest"
   },
+  "peerDependencies": {
+    "npm-package-json-lint": "^5.1.0"
+  },
   "devDependencies": {
     "@bconnorwhite/bob": "^2.3.0",
     "jest": "^26.4.2"
-  },
-  "peerDependencies": {
-    "npm-package-json-lint": "^5.1.0"
   },
   "eslintConfig": {
     "extends": "eslint-config-bob"
