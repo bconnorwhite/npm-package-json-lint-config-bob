@@ -50,8 +50,9 @@ const config = {
     "prefer-alphabetical-scripts": "error",
     "prefer-scripts": ["warning", [
       "build",
-      "postversion",
-      "prepublishOnly",
+      "commit",
+      "lint",
+      "release",
       "test"
     ]],
     "description-format": ["warning", {
