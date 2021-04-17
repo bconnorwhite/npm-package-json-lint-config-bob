@@ -1,13 +1,16 @@
 <div align="center">
   <h1>npm-package-json-lint-config-bob</h1>
   <a href="https://npmjs.com/package/npm-package-json-lint-config-bob">
-    <img alt="npm" src="https://img.shields.io/npm/v/npm-package-json-lint-config-bob.svg">
+    <img alt="NPM" src="https://img.shields.io/npm/v/npm-package-json-lint-config-bob.svg">
   </a>
   <a href="https://github.com/bconnorwhite/npm-package-json-lint-config-bob">
-    <img alt="typescript" src="https://img.shields.io/badge/TypeScript-%F0%9F%91%8D-blue.svg">
+    <img alt="TypeScript" src="https://img.shields.io/github/languages/top/bconnorwhite/npm-package-json-lint-config-bob.svg">
+  </a>
+  <a href="https://coveralls.io/github/bconnorwhite/npm-package-json-lint-config-bob?branch=master">
+    <img alt="Coverage Status" src="https://coveralls.io/repos/github/bconnorwhite/npm-package-json-lint-config-bob/badge.svg?branch=master">
   </a>
   <a href="https://github.com/bconnorwhite/npm-package-json-lint-config-bob">
-    <img alt="GitHub stars" src="https://img.shields.io/github/stars/bconnorwhite/npm-package-json-lint-config-bob?label=Stars%20Appreciated%21&style=social">
+    <img alt="GitHub Stars" src="https://img.shields.io/github/stars/bconnorwhite/npm-package-json-lint-config-bob?label=Stars%20Appreciated%21&style=social">
   </a>
   <a href="https://twitter.com/bconnorwhite">
     <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/bconnorwhite.svg?label=%40bconnorwhite&style=social">
@@ -16,15 +19,15 @@
 
 <br />
 
-> NPM package.json lint configuration for packages built with @bconnorwhite/bob.
+> npm-package-json-lint configuration for packages built with [@bconnorwhite/bob](https://www.npmjs.com/package/@bconnorwhite/bob).
 
 ## Installation
 
-```bash
+```sh
 yarn add npm-package-json-lint-config-bob
 ```
 
-```bash
+```sh
 npm install npm-package-json-lint-config-bob
 ```
 
@@ -51,7 +54,6 @@ In `.npmpackagejsonlintrc.json` or the `npmpackagejsonlint` field in package.jso
 <h2>Dev Dependencies<img align="right" alt="David" src="https://img.shields.io/david/dev/bconnorwhite/npm-package-json-lint-config-bob.svg"></h2>
 
 - [@bconnorwhite/bob](https://www.npmjs.com/package/@bconnorwhite/bob): Bob is a toolkit for TypeScript projects
-- [jest](https://www.npmjs.com/package/jest): Delightful JavaScript Testing.
 
 <br />
 

@@ -56,8 +56,8 @@ const config = {
       "test"
     ]],
     "description-format": ["warning", {
-      "requireCapitalFirstLetter": true,
-      "forbidEndingPeriod": true
+      requireCapitalFirstLetter: true,
+      forbidEndingPeriod: true
     }],
     "name-format": "error",
     "version-format": "error",
@@ -87,6 +87,8 @@ const config = {
     "no-duplicate-properties": "error",
     "prefer-no-optionalDependencies": "error"
   }
-}
+};
 
 module.exports = config;
+
+export default config;

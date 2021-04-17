@@ -31,20 +31,24 @@
   "main": "./build/index.js",
   "scripts": {
     "build": "bob build",
+    "commit": "bob commit",
     "lint": "bob lint",
-    "postversion": "git push",
-    "prepublishOnly": "yarn lint && yarn build && yarn test",
-    "test": "jest"
+    "release": "bob publish",
+    "test": "bob test"
   },
   "peerDependencies": {
     "npm-package-json-lint": "^5.1.0"
   },
   "devDependencies": {
-    "@bconnorwhite/bob": "^2.3.0",
-    "jest": "^26.4.2"
+    "@bconnorwhite/bob": "^2.9.4"
   },
   "eslintConfig": {
     "extends": "eslint-config-bob"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "bob lint commit"
+    }
   },
   "npmpackagejsonlint": {
     "extends": "npm-package-json-lint-config-bob",
@@ -52,8 +56,7 @@
       "description-format": [
         "warning",
         {
-          "requireCapitalFirstLetter": false,
-          "requireEndingPeriod": false
+          "requireCapitalFirstLetter": false
         }
       ]
     }
