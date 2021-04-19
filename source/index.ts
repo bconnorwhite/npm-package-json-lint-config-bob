@@ -6,7 +6,6 @@ const config = {
     "require-description": "error",
     "require-license": "error",
     "require-author": "error",
-    "require-homepage": "warning",
     "require-repository": "error",
     "require-keywords": "warning",
     "require-files": "error",
