@@ -1,3 +1,13 @@
+## [1.2.1](https://github.com/bconnorwhite/npm-package-json-lint-config-bob/compare/v1.2.0...v1.2.1) (2021-04-19)
+
+
+### Bug Fixes
+
+* adjust prefer-property-order list ([3d9681c](https://github.com/bconnorwhite/npm-package-json-lint-config-bob/commit/3d9681cb127fa6f1f69606859ac80bb24408cbee))
+* remove require-homepage ([f7b3558](https://github.com/bconnorwhite/npm-package-json-lint-config-bob/commit/f7b355862f3b58f861638985f904fc575e3a94e9))
+
+
+
 # [1.2.0](https://github.com/bconnorwhite/npm-package-json-lint-config-bob/compare/v1.1.0...v1.2.0) (2021-04-17)
 
 
