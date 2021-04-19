@@ -71,6 +71,7 @@ const config = {
       "repository",
       "contributors",
       "keywords",
+      "files",
       "main",
       "bin",
       "scripts",
@@ -78,8 +79,8 @@ const config = {
       "peerDependencies",
       "devDependencies",
       "eslintConfig",
+      "husky",
       "npmpackagejsonlint",
-      "config",
       "workspaces",
       "publishConfig"
     ]],
